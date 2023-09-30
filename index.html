@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>as capivaras, amigas dos seres humanos.</title>
+    <script src="https://kit.fontawesome.com/c756bfdeaf.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+</head>
+
+<body id="bodyBackground">
+    <header class="cabecalho">
+        <!--Vamos criar um menu com tag <ul>-->
+        <!--Vamos criar os itens desse menu também-->
+        <div class="menu">
+            <ul>
+                <li class="links">
+                    <a href="#inicio">Início</a>
+                </li>
+
+                <li class="links">
+                    <a href="#curiosidades">Curiosidades</a>
+                </li>
+
+                <li class="links">
+                    <a href="#projetos">Projetos de proteção</a>
+                </li>
+
+                <li class="links">
+                    <a href="#contato">Contato</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+
+        <img id="fotoInicio" src="Design sem nome.svg" id="imagemInicio" onclick="clique()">
+        <br>
+        <div class="container">
+            <section id="inicio">
+                <h1 class="tituloPrincipal">Capibaras, as amigas de todo o mundo!</h1>
+                <button onclick="clique()" id="button1">Clique em mim</button>
+                <br>
+                <h2 class="subtitulos">Conheça sobre as capivaras</h2>
+                <p class="textos">Vivem principalmente na america do sul e é um animal semi-aquatico</p>
+                <br>
+                <h1 class="palavras"><strong><iframe width="560" height="315"
+                            src="https://www.youtube.com/embed/d_4sGdlZqXw?si=0irQNGwOz53-NP_-"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe></strong></h1>
+                <p class="textos">video de uma capibara brava</p>
+                <br>
+
+                <section id="curiosidades">
+                    <h2 class="subtitulos">Curiosidades</h2>
+                    <p class="textos">O nome cientifico da capivara e "Hydrochoerus hydrochaeris"</p>
+                    <p class="textos">São animais muitos sociáveis</p>
+                    <!--Pegar o video do youtube-->
+                </section>
+
+            </section>
+            <section id="galeria">
+                <h2 class="subtitulos">Galeria de Fotos</h2>
+            </section>
+
+            <section id="projetos">
+                <h2 class="subtitulos">Projetos de proteção</h2>
+                <iframe src="https://sema.df.gov.br/projeto-capivaras-entrevista-moradores-da-orla-do-lago/"
+                    frameborder="" width="1200px" ; height="1100px" ;></iframe>
+
+
+                <!--Acesse o site "https://sema.df.gov.br/projeto-capivaras-entrevista-moradores-da-orla-do-lago/"   -->
+                <!--Usar tag video e seus controles-->
+                <br>
+
+                <video src="capibaraFeliz.mp4" controls></video>
+            </section>
+
+        </div>
+        <footer>
+            <section id="contato">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d246.49761707200096!2d-42.586315189246115!3d-8.695170658252398!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x779d70f30299457%3A0x63d343eb51fea88f!2sParque%20Nacional%20Serra%20da%20Capivara!5e0!3m2!1spt-BR!2sbr!4v1695491676350!5m2!1spt-BR!2sbr"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <h2 class="subtitulos">Contato</h2>
+                <!--Incorporar um mapa-->
+                <h2>me contate no github </h2>
+                <i class="fa-brands fa-github fa-2xl" style="color: #333333;"></i>
+                &nbsp;
+                <a href="https://github.com/marcelobruscattom"  target="_blank" rel="noopener noreferrer">meu github </a>
+                
+            </section>
+        </footer>
+
+    </main>
+</body>
+
+</html>
